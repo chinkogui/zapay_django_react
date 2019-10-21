@@ -52,6 +52,9 @@ Página principal:
 
 Devido a API não estar retornando os dados adequadamente e para fins de exibição, as páginas estão lendo arquivos Json dentro do diretório "src/data"
 
+<h1>Ferramentas para desenvolvimento:</h1>
 
+* JetBrains WebStorm - Desenvolvimento React
+* JetBrains PyCharm - Desenvolvimento Python/Django
 
 

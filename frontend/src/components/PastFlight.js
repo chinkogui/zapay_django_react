@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import PostData from '../data/upcoming.json'
+import PostData from '../data/past.json'
 import {Link} from "react-router-dom";
 import '../vendor/bootstrap/css/bootstrap.min.css'
 
@@ -40,7 +40,7 @@ class PastFlight extends Component {
                 <header className="bg-primary py-5 mb-5">
                 </header>
                 <div>
-                    <h1>Upcoming Launch</h1>
+                    <h1>Past Launches</h1>
                     {PostData.map((postDetail, index) => {
                         return <div className="row" align="left">
                             <p>
